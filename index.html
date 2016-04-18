@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app='wikiViewer'>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>Wiki Viewer</title>
+
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+
+
+      <link rel="stylesheet" href="normalize.css" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+
+   </head>
+   <body>
+   <div id="container" g-controller='wikiCtrl as wikipedia'>
+
+
+      <div id="wrap">
+        <form action="" autocomplete="on">
+        <input id="search" name="search" type="text" placeholder="Search Wikipedia"><input id="search_submit" value="Rechercher" type="submit">
+        </form>
+      </div>
+
+      <div class="random">
+         <a class="button" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Wikipedia Article</a>
+
+      </div>
+
+
+
+
+
+
+
+
+   </div>
+
+
+
+<!-- Scripts ----------------------->
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js" charset="utf-8"></script>
+   <script src="app.js" charset="utf-8"></script>
+   <script src="controller.js" charset="utf-8"></script>
+   <script src="service.js" charset="utf-8"></script>
+
+
+   </body>
+</html>
